@@ -268,7 +268,7 @@ section{
 		height: 3px;
 		background-color: $KeyFontColor;
 		margin-bottom: 9px;
-		transition: background-color 1s ease;		
+		transition: all 0.3s ease;		
 		&:first-of-type{
 			width: 45px;
 		}
@@ -449,7 +449,7 @@ section{
 			transition: left 0.5s ease;
 		}
 		&:hover::after{
-			content: 'Find Out';
+			content: 'MORE';
 			display: block;
 			color: #fff;
 			font-size: 1.5rem;

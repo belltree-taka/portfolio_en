@@ -403,8 +403,8 @@ section {
   height: 3px;
   background-color: #575757;
   margin-bottom: 9px;
-  -webkit-transition: background-color 1s ease;
-  transition: background-color 1s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .HamburgerIcon__line:first-of-type {
@@ -652,7 +652,7 @@ section {
 }
 
 .works-container .works-item:hover::after {
-  content: 'Find Out';
+  content: 'MORE';
   display: block;
   color: #fff;
   font-size: 1.5rem;
