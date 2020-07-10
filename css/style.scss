@@ -430,6 +430,7 @@ section{
 			display: block;
 			left: 100%;
 			transition: left 0.5s ease;
+			pointer-events: none;
 		}
 		&:hover::before{
 			content: '';
@@ -447,6 +448,7 @@ section{
 			content: '';
 			left: 100%;
 			transition: left 0.5s ease;
+			pointer-events: none;
 		}
 		&:hover::after{
 			content: 'MORE';
@@ -464,6 +466,7 @@ section{
 			height: 50px;
 			line-height: 50px;
 			border: 3px solid #fff;
+			pointer-events: none;
 		}
 		.works-reference{
 			display: inline-block;
